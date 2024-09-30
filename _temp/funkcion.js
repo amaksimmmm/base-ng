@@ -11,7 +11,7 @@
 /**
  * @function calcSUM
  * @param {number} num1
- * @param {string} num2
+ * @param {number} num2
  * @returns {number} сумма чисел
  */
 
