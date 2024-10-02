@@ -1,8 +1,13 @@
 /**
+ * @typedef {object} InputMonth
+ * @property {InputMonth} month
+ * @property {number} num1
+ * @throws {Error} Error type: If the argument is not a number *
+ */
+
+/**
  * @function quarterYear
- * @param {object} odj
- * @param {number} num1
- * @throws {Error} Error type: If the argument is not a number
+ * @param {InputMonth} Months
  * @returns {string} quarter view
  */
 
@@ -19,4 +24,3 @@ export const quarterYear = (odj, num1) => {
     return Error;
   };
 };
-
