@@ -1,10 +1,5 @@
-export type InputProducts = {
-  arr: string;
-  price: number;
-  quantity: number;
-};
+import { ArrayIsArrayData } from './ui/ArrayIsArray/types';
 
-export type OutputProducts = {
-  arr: string[];
-  sumProduct: number;
+export type getTotalPriceData = {
+  arrayIs: ArrayIsArrayData;
 };
